@@ -11,8 +11,8 @@ int main(void)
 
     printf("What is your name?\n");
     scanf("%s", &a);
-    printf("こんにちは、%s", a);
-    printf("サイコロを振ってみると...\n");
+    printf("Hello, %s", a);
+    printf("Rolling the dice...\n");
 
     i = rand() % 6 + 1;
     printf("Die1：%d\n", i);
