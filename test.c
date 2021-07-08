@@ -9,7 +9,7 @@ int main(void)
 
     srand((unsigned)time(NULL));
 
-    printf("あなたの名前は何ですか？\n");
+    printf("What is your name?\n");
     scanf("%s", &a);
     printf("こんにちは、%s", a);
     printf("サイコロを振ってみると...\n");
